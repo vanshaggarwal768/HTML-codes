@@ -1,0 +1,29 @@
+h1::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+span:nth-child(1) {
+  color: red;
+  font-size: 50px;
+}
+span:nth-child(3) {
+  font-size: 30px;
+  color: red;
+}
+a:hover {
+  color: green;
+}
+input[type="text"] {
+  color: green;
+  background-color: red;
+}
+
+.decorated::before {
+  content: star 😂😂;
+  color: blue;
+}
+.decorated::after{
+    content:star 😂😂 ;
+    color: red;
+}
